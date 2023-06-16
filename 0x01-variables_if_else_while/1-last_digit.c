@@ -18,7 +18,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	esle
+	else
 	{
 		printf("%d is negative\n", n);
 	}
