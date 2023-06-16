@@ -1,6 +1,6 @@
 # include<stdio.h>
 /**
- * main-entry point
+ * A program that print a line using the printf f unction
  * 
  * Return: Always 0 (success)
  */
