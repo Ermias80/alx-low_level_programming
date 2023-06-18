@@ -5,14 +5,12 @@
  */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+int i;
+for (i=97; i<123 ; i++)
 {
-putchar(letter);
-letter++;
-if (letter != 'q' && letter != 'e')
+if(i != 101 && i != 113)
 {
-putchar(letter)
+putchar(i);
 }
 }
 putchar('\n');
