@@ -5,9 +5,11 @@
  */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+char letter = 'a';
+while (letter <= 'z')
 {
+putchar(letter);
+letter++;
 if (letter != 'q' && letter != 'e')
 {
 putchar(letter)
