@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main function of the program.
- * main - Determines if a number is positive, negetive or zero.
- * return: always 0 (succes) 
+ * main - Determines if a number is positive, negetive or zero
+ * return: always 0 (success) 
 */
 int main(void)
 {
