@@ -16,7 +16,7 @@ if (num2 != num1)
 {
 putchar(num1);
 putchar(num2);
-if (num2 != '8' && num1 != '9')
+if (num2 == '8' && num1 == '9')
 {
 putchar(',');
 putchar(' ');
