@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <studlib.h>
+#include <time.h>
 /**
  * main - alphabet in lowercase
  * Return: Always 0 (success)
