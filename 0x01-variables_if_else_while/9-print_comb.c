@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <studlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - alphabet in lowercase
@@ -8,7 +8,7 @@
 int main (void)
 {
 int num;
-for( num = '0'; num <= '10'; num++)
+for( num = '0'; num < '10'; num++)
 {
 putchar(num);
 if(num!= '9')
