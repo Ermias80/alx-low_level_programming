@@ -17,11 +17,10 @@ if (num2 != num1)
 putchar(num1);
 putchar(num2);
 if (num1 == '8' && num2 == '9')
-{
+continue;
 putchar(',');
 putchar(' ');
-continue;
-}
+
 }
 }
 }
