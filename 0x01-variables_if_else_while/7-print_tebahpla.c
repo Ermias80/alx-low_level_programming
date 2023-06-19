@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-int num = 0;
-while (num < 10)
+char letter = 'z';
+while (letter <= 'a')
 {
-putchar(num + '0');
-num++;
+putchar(letter);
+letter++;
 }
 putchar('\n');
 return (0);
