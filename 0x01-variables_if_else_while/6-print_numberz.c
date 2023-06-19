@@ -5,10 +5,9 @@
  */
 int main(void)
 {
-int num 10;
-for (int i=0 ;i< num; i++)
+for (int i=0 ;i< 10; i++)
 {
-putchar(num);
+putchar(i);
 }
 putchar('\n');
 return (0);
