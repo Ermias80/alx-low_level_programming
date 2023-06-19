@@ -5,7 +5,7 @@
  * main - alphabet in lowercase
  * Return: Always 0 (success)
  */
-int main(void)
+iint main(void)
 {
 int num1, num2;
 for (num1 = '0'; num1 <= '9'; num1++)
@@ -16,7 +16,7 @@ if (num2 != num1)
 {
 putchar(num1);
 putchar(num2);
-if (num2 != '8' || num1 != '9')
+if (num2 != '8' && num1 != '9')
 {
 putchar(',');
 putchar(' ');
