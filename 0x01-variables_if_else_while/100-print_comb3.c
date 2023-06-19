@@ -5,7 +5,7 @@
  * main - alphabet in lowercase
  * Return: Always 0 (success)
  */
-iint main(void)
+int main(void)
 {
 int num1, num2;
 for (num1 = '0'; num1 <= '9'; num1++)
