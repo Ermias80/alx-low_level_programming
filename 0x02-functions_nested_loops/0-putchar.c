@@ -1,10 +1,1 @@
-#include <stdio.h>
-/**
- * main - alphabet in lowercase
- * Return: Always 0 (success)
- */
-int main(void)
-{
-putchar('\n');
-return (0);
-}
+gcc 0-putchar.c -o 0-putchar
