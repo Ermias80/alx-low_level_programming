@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10.c - alphabet in lowercase
+ * print_alphabet_x10.c - print alphabet in lowercase_X10
  * Return: void
  */
 void print_alphabet_x10(void)
@@ -13,6 +13,6 @@ for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
-}
 _putchar('\n');
+}
 }
