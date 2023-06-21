@@ -1,25 +1,18 @@
 #include "main.h"
 /**
- * _islower - alphabet in lowercase
- * @c: the character in ASCII code
- * Return: 1 for lowaer character, 0 for the rest
+ * _abs - compute the absolute vallue 
+ * @c: the number to be computedi
+ * Return: return absolut value of a number
  */
-int _abs(int)
+int _abs(int c)
 {
-int num = -1;
-int j;
-if (j > 0)
+int abs_val;
+if (c < 0)
 {
-_putchar(j);
-}
-else if (j == 0)
-{
-_putchar(j);
+abs_val = c * -1
+return (abs_val);
 }
 else
 {
-_putchar(j*num);
-}
-_putchar('\n');
-return (0);
+return (c);
 }
