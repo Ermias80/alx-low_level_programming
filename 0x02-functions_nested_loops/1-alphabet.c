@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print - alphabet in lowercase
- * Return: void 
+ * print_alphabet - alphabet in lowercase
+ * Return: void
  */
 void print_alphabet(void)
 {
 char c = 'a';
-while (c <= 'z')
+whilei (c <= 'z')
 {
 _putchar(c);
 c++;
