@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * times_table - alphabet in lowercase
- * @c: the character in ASCII code
  * Return: 1 for lowaer character, 0 for the rest
  */
 void times_table(void)
@@ -15,7 +14,7 @@ z = x * y;
 if (z > 9)
 {
 u = 2 % 10;
-d = (z - u)/10;
+d = (z - u) / 10;
 _putchar(44);
 _putchar(32);
 _putchar(d + '0');
