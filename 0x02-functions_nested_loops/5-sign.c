@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - print the shign of a number
- * @c: the number to be cheaked
+ * @n: the number to be cheaked
  * Return: 1 for posetive return -1 for negative and return 0 for anything else
  */
 int print_sign(int n)
