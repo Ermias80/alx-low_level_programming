@@ -3,7 +3,7 @@
  * times_table - alphabet in lowercase
  * Return: 1 for lowaer character, 0 for the rest
  */
-void times_table(void)
+void jack_bauer(void)
 {
 int a, b, c, d;
 for (a = 0; a <= 2; a++)
