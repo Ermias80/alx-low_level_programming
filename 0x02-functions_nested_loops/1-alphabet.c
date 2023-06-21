@@ -8,7 +8,7 @@ int main(void)
 char leater = 'a';
 while(leater <= 'z')
 {
-_putchar('leater');
+_putchar("leater");
 leater++;
 }
 _putchar('\n');
