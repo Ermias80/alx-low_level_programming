@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-char leater = 'a';
-while(leater <= 'z')
+char c = 'a';
+while(c <= 'z')
 {
-_putchar("leater");
+_putchar(c);
 leater++;
 }
 _putchar('\n');
