@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_alphabet_x10.c - print alphabet in lowercase_X10
+ * print_alphabet_x10.c - make alphabet x10 times
  * Return: void
  */
 void print_alphabet_x10(void)
 {
 int i;
-for (i = 0; i <= 10; i++)
+for (i = 0; i <= 9; i++)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
