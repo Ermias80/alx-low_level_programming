@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - alphabet in lowercase
- * @c: the character in ASCII code
- * Return: 1 for lowaer character, 0 for the rest
+ * print_last_digit - print the last digit of a number
+ * @n: the number to be treated
+ * Return: value of the last digit
  */
 int print_last_digit(int n)
 {
