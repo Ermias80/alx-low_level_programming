@@ -17,7 +17,7 @@ for (x = 0; x < size; x++)
 {
 for (y = 0; y < size; y++)
 {
-putchar(35);
+putchar(3, 5);
 }
 putchar('\n');
 }
