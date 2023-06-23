@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * more_numbers - alphabet in lowercase
- * Return: 1 for lowaer character, 0 for the rest
+ * more_numbers - print 1 times
+ * Return: 10 times of the number
  */
 void more_numbers(void)
 {
