@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_square - print the squear
- * @size: the size of sqer
+ * print_square - print the squea according to n numberr
+ * @size: the size of sqear/number of time
  * Return: empity
  */
 void print_square(int size)
