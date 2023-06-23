@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - alphabet in lowercase
+ * print_most_numbers - print nuber
  * Return: list of number
  */
 void print_most_numbers(void)
