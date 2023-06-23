@@ -6,7 +6,7 @@
  */
 int mul(int a, int b);
 {
-int mul = 0;
+int num = 0;
 num = (a * b);
 putchar(num + '0');
 }
