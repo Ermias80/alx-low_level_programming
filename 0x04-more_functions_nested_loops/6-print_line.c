@@ -2,7 +2,7 @@
 /**
  * print_line - alphabet in lowercase
  * @n: the the number
- * Return: 1 for lowaer character, 0 for the rest
+ * Return: empity
  */
 void print_line(int n)
 {
