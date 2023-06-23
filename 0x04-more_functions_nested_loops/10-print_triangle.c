@@ -20,8 +20,10 @@ for (y = size - x; y > 1; y--)
 putchar(32);
 }
 for (z = 0; z <= x; z++)
-}
+{
 putchar(35);
 }
 putchar('\n');
+}
+}
 }
