@@ -6,10 +6,5 @@
  */
 int mul(int a, int b);
 {
-int num = 0;
-num = (a * b);
-putchar(num + '0');
-}
-putchar('\n');
-return (0);
+return (a * b);
 }
