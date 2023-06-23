@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - drow the diagram
+ * @n: the number of time
  * Return: empity
  */
 void print_diagonal(int n)
