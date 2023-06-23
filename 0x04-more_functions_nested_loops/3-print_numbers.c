@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - alphabet in lowercase
- * Return: 1 for lowaer character, 0 for the rest
+ * Return: 0
  */
 void print_numbers(void)
 {
@@ -11,5 +11,4 @@ for (n = 0; n < 10; n++)
 putchar(n + '0');
 }
 putchar('\n');
-return (0);
 }
