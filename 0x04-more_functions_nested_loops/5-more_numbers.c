@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * _islower - alphabet in lowercase
- * @c: the character in ASCII code
+ * more_numbers - alphabet in lowercase
  * Return: 1 for lowaer character, 0 for the rest
  */
 void more_numbers(void)
