@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - alphabet in lowercase
+ * print_line - Drow a straight line
  * @n: the the number
  * Return: empity
  */
