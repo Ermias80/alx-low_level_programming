@@ -12,7 +12,10 @@ if (n == 2 || n == 4)
 {
 continue;
 }
+else
+{
 _putchar(n + '0');
+}
 _putchar('\n');
 }
 }
