@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * more_numbers - print 1 times
- * Return: 10 times of the number
+ * more_numbers - print 10 times the number scince 0 up to 1uu4
+ * Return: 10 times of the number scince 0 up to 14
  */
 void more_numbers(void)
 {
