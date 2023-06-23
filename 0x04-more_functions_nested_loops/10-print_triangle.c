@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_triangle- alphabet in lowercase
- * @size: the character in ASCII code
- * Return: 0
+ * print_triangle- print atriangle of a squear
+ * @size: the size of tirangle
+ * Return: empity
  */
 void print_triangle(int size)
 {
