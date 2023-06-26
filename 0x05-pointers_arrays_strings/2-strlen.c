@@ -4,9 +4,10 @@
  * @s : the value of sterlen
  * Return: leangth
  */
-int _strlen(char *s)
+size_t  _strlen(const char *s)
 {
-s_t lengeth = 0;
+
+size_t lengeth = 0;
 while (*s++)
 lengeth++;
 return (lengeth);
