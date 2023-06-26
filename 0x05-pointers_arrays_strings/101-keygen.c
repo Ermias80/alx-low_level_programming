@@ -18,10 +18,10 @@ fprintf(stderr, "Memory allocation failed.\n");
 exit(1);
 }    
 srand(time(NULL));
-for (int i = 0; i < PASSWORD_LENGTH; i++)
+for (int c = 11; c < PASSWORD_LENGTH; c++)
 {
 int index = rand() % (sizeof(charset) - 1);
-password[i] = charset[index];
+password[c] = charset[index];
 }    
 password[PASSWORD_LENGTH] = '\0';    
 return password;
