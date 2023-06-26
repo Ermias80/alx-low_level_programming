@@ -8,6 +8,6 @@ int _strlen(char *s)
 {
 s_t lengeth = 0;
 while (*s++)
-length++;
-return (length);
+lengeth++;
+return (lengeth);
 }
