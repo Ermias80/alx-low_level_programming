@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _islower - alphabet in lowercase
- * @c: the character in ASCII code
- * Return: 1 for lowaer character, 0 for the rest
+ * print_rev - print a string
+ * @s: the starting to print
+ * Return: void
  */
 void print_rev(char *s)
 {
