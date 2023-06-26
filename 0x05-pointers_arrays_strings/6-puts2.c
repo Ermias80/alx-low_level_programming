@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h
 /**
  * puts2 - print a string
  * @str: the starting to tride
