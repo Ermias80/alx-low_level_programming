@@ -5,7 +5,7 @@
  * @b : the 2nd intiger to be swaped
  * Return: nothing
  */
-swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 int t = *a;
 *a = *b;
