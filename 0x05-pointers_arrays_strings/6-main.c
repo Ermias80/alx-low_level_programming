@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -10,6 +10,6 @@ int main(void)
     char *str;
 
     str = "0123456789";
-    putchar(str);
+    puts2(str);
     return (0);
 }
