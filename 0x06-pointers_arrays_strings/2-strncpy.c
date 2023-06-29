@@ -3,8 +3,8 @@
  * _strncpy - to concatenate the strings
  * @dest: the fierst string
  * @src: the second string
- * @: the therd vat
- * Return: a pointer to a resulting
+ * @n: the therd vat
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
