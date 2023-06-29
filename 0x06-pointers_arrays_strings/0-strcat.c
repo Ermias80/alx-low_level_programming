@@ -3,7 +3,7 @@
  * _strcat - to concatenate the strings
  * @dest: the fierst string
  * @src: the second string
- * Return: string
+ * Return: a pointer to a resulting
  */
 char *_strcat(char *dest, char *src)
 {
@@ -19,5 +19,5 @@ ptr++;
 src++;
 }
 *ptr = '\0';
-return dest;
+return (dest);
 }
