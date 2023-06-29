@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strcat - to concatenate the strings
+ * _strncat - to concatenate the strings
  * @dest: the fierst string
  * @src: the second string
  * @n: the therd 
  * Return: a pointer to a resulting
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
 i = 0;
