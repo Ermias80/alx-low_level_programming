@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - to concatenate the strings
+ * _strncpy - to concatenate the strings
  * @dest: the fierst string
  * @src: the second string
  * @: the therd vat
