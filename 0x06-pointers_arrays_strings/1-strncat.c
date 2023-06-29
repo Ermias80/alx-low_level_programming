@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strncat - to concatenate the strings
- * @dest: the fierst string
- * @src: the second string
- * @n: the therd 
- * Return: a pointer to a resulting
+ * @dest: the fierst input string
+ * @src: the second input string
+ * @n: the therd input 
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
