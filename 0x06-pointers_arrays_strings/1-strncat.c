@@ -3,9 +3,10 @@
  * _strcat - to concatenate the strings
  * @dest: the fierst string
  * @src: the second string
+ * @n: the therd 
  * Return: a pointer to a resulting
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src, int n)
 {
 int i, j;
 i = 0;
