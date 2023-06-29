@@ -18,5 +18,7 @@ j++;
 while (i < n)
 {
 dest[i] = '\0';
+i++;
+}
 return (dest);
 }
