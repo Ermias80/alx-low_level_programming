@@ -1,5 +1,5 @@
 #include "main.h"
-/* *
+/**
  * leet - encodes a string into Leet Speak
  * @n: the input string
  * Return: a pointer to the resulting string
@@ -8,7 +8,7 @@ char *leet(char *n)
 {
 int i, j;
 char s1[] = "aAeEoOtTlL";
-char s2[] = "4433007711"; 
+char s2[] = "4433007711";
 for (i = 0; n[i] != '\0'; i++)
 {
 for (j = 0; j < 10; j++)
