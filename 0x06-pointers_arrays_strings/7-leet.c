@@ -1,27 +1,22 @@
 #include "main.h"
 /**
  * _leet - to concatenate the strings
- * @src: the second string
+ * @n: the second string
  * Return: a pointer to a resulting
  */
-char *leet(char *str)
-{
-char *ptr = str;
-char *leetChars = "aAeEoOtTlL";
-char *leetReplacements = "4433007711";
+char *leet(char *n)
 int i, j;
-while (*ptr)
+char s1[] = "aAeEoOtTlL";
+char s2[] = "4433007711";
+for (i = 0; n[i] '\0'; i++)
 {
-for (i = 0; leetChars[i]; i++)
+for (j =0; j < 10; j++)
 {
-if (*ptr == leetChars[i])
+if (n[i] == s1[j])
 {
-*ptr = leetReplacements[i];
-break;
+n[i] == s2[j];
 }
 }
-ptr++;
 }
-return (str);
+return (n);
 }
-
