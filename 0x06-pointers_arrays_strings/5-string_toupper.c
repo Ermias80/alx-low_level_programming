@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * _strcat - to concatenate the strings
- * @dest: the fierst string
- * @src: the second string
+ * string_toupper - to concatenate the strings
+ * @n: the fierst string
  * Return: a pointer to a resulting
  */
-*string_toupper(char *)
+char *string_toupper(char *n)
 {
 int i = 0;
 while (n[i] != '\0')
