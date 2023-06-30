@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * cap_string - to concatenate the strings
- * @dest: the fierst string
  * @str: the second string
  * Return: a pointer to a resulting
  */
