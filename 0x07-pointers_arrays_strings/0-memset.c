@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * _islower - alphabet in lowercase
- * @c: the character in ASCII code
- * Return: 1 for lowaer character, 0 for the rest
+ * _memset - alphabet in lowercase
+ * @s: pointed destination
+ * @b: constant bayit
+ * @n: bytes 
+ * Return: alwayes 0 (sucess)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -10,6 +12,7 @@ char *_memset(char *s, char b, unsigned int n)
  for (i = 0; i <= n; i++)
 {
 s[i] = b;
-}
+
 return (s);
+}
 }
