@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * __strchr - alphabet in lowercase
- * @c: the character in ASCII code
- * @s: byte
+ * _strchr - pointer enter
+ * @c: inpute
+ * @s: inpute
  * Return: always 0 (sucess)
  */
 char *_strchr(char *s, char c)
