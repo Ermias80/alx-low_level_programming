@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - alphabet in lowercase
+ * *_memset - alphabet in lowercase
  * @s: pointed destination
  * @b: constant bytes
  * @n: bytes 
