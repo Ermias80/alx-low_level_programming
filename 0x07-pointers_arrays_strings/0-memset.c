@@ -2,7 +2,7 @@
 /**
  * _memset - alphabet in lowercase
  * @s: pointed destination
- * @b: constant bayit
+ * @b: constant bytes
  * @n: bytes 
  * Return: alwayes 0 (sucess)
  */
