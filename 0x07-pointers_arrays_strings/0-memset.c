@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_memset - enter pointer
+ * _memset - enter pointer
  * @s: pointed destination
  * @b: constant bytes
- * @n: bytes 
+ * @n: bytes
  * Return: alwayes 0 (sucess)
  */
 char *_memset(char *s, char b, unsigned int n)
