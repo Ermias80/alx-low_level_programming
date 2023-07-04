@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _islower - alphabet in lowercase
- * @c: the character in ASCII code
- * Return: 1 for lowaer character, 0 for the rest
+ * _strstr - enter pointer
+ * @hystack: inpute
+ * @needle: inpute
+ * Return: always 0 (sucess)
  */
 char *_strstr(char *haystack, char *needle)
 {
