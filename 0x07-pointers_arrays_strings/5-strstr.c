@@ -4,7 +4,7 @@
  * _strstr - enter pointer
  * @hystack: inpute
  * @needle: inpute
- * Return: always 0 (sucess)
+ * Return: Alwayes 0 (success)
  */
 char *_strstr(char *haystack, char *needle)
 {
