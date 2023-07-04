@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strspn - enter pointer
- * @s: the character in ASCII code
+ * @s: input
  * @accept: inpute
  * Return: always 0
  */
