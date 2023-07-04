@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strstr - enter pointer
- * @hystack: inpute
+ * @haystack: inpute
  * @needle: inpute
  * Return: Alwayes 0 (success)
  */
