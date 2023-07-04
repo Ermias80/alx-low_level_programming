@@ -12,7 +12,7 @@ for (; *haystack != '\0'; haystack++)
 {
 char *one = haystack;
 char *two = needle;
-while (*one == *two && *two && *two != '\0')
+while (*one == *two && *two != '\0')
 {
 one++;
 two++;
