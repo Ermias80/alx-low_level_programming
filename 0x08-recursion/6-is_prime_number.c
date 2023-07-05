@@ -2,9 +2,8 @@
 #include <stdio.h>
 int chake_prime(int n, int i);
 /**
- * _prime_number -  prints a string in reverse
+ * is_prime_number -  prints a string in reverse
  * @n: the string to be reverse
- * @i; recr
  * Return: nothing
  */
 int is_prime_number(int n)
