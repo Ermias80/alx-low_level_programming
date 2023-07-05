@@ -2,8 +2,8 @@
 #include <stdio.h>
 int _sqrt(int n, int i);
 /**
- * _print_rev_recursion -  prints a string in reverse
- * @s: the string to be reverse
+ * _sqrt_recursion -  prints a string in reverse
+ * @n: the string to be reverse
  * Return: nothing
  */
 int _sqrt_recursion(int n)
