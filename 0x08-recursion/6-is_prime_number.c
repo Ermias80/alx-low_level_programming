@@ -13,7 +13,7 @@ return (chake_prime(n, 1));
 /**
  * chake_prime -  prints a string in reverse
  * @n: the string to be reverse
- * @i; recr
+ * @i: recr
  * Return: nothing
  */
 int chake_prime(int n, int i)
