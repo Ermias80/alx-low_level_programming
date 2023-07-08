@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print the multiplication of two numbers
+ * main - print the multiplication of two arg  numbers
  * @argc: argument counter
  * @argv: aregument vector
  * Return: Always zero
