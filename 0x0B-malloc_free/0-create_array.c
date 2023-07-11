@@ -1,9 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * *create_array - prints buffer in hexa
+ * *create_array - creat an array with the size size and assigned char c
  * @c: char to assign
  * @size: the size of the array
  *
