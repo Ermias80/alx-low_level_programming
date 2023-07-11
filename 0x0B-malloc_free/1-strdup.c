@@ -15,15 +15,15 @@ if (str == NULL)
 return (NULL);
 i = 0;
 while (str[i] !='0')
-	i++;
+{
+i++;
+}
 arr = malloc(sizeof(char) * (i + 1));
 if (arr == NULL)
 	return (NULL);
-r = 0;
-while (r < str[i])
+for (r = 0; str[r]; i++)
 {
-arr[r] = str[i];
-r++;
+arr[r] = str[r];
 }
 return (arr);
 }
