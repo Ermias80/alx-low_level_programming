@@ -14,12 +14,14 @@ unsigned int n;
 char *arr;
 arr = malloc(sizeof(char)*size);
 if (size == 0 || arr == NULL)
-	return (NULL);
+{
+return (NULL);
+}
 n=0;
 while (n < size)
 {
-	arr[n] = c;
-	n++;
+arr[n] = c;
+n++;
 }
 return (arr);
 }
