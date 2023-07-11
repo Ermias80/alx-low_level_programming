@@ -4,10 +4,10 @@
 
 /**
  * *create_array - prints buffer in hexa
- * @c: the address of memory to print
- * @size: the size of the memory to print
+ * @c: char to assign
+ * @size: the size of the array
  *
- * Return: Nothing.
+ * Return: pointer to array, null
  */
 char *create_array(unsigned int size, char c)
 {
