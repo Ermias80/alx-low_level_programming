@@ -27,7 +27,6 @@ return (1);
 }
 }
 sum += atoi(e);
-e++;
 }
 printf("%d\n", sum);
 }
