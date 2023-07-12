@@ -15,21 +15,35 @@ int i, j;
 char *coo;
 
 if (s1 == NULL)
-        s1 = "";
+{
+s1 = "";
+}
 if (s2 == NULL)
-        s2 = "";
+{	
+s2 = "";
+}
 i = j = 0;
 while (s1[i] != '\0')
-        i++;
+{
+i++;
+}
 while (s2[j] != '\0')
-        j++;
+{
+j++;
+}
 coo = malloc(sizeof(char) * (i + j + 1));
 if (coo == NULL)
-        return (NULL);
+{
+return (NULL);
+}
 for (i = 0; s1[i] != '\0'; i++)
-        coo[i] = s1[i];
+{
+coo[i] = s1[i];
+}
 for (j = 0; s2[j] != '\0'; j++, i++)
-        coo[i] = s2[j];
+{
+coo[i] = s2[j];
+}
 coo[i] = '\0';
 return (coo);
 }
