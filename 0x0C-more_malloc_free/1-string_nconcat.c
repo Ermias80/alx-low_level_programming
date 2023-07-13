@@ -11,20 +11,14 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int i = 0, j = 0, l = 0;
+unsigned int i = 0, l = 0;
 char *coo;
 if (s1 == NULL)
 	s1 = "";
 if (s2 == NULL)
 	s2 = "";
-if (n >= j)
-{
-l = i + j;
-}
-else
-{
-l = i + n;
-}
+for (i = 0; s1[i]; i++)
+l++;
 coo = malloc(sizeof(char) * l + 1);
 if (coo == NULL)
 {
