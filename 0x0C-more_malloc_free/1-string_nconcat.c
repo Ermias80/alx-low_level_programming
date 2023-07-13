@@ -30,14 +30,11 @@ if (coo == NULL)
 {
 return (NULL);
 }
-for (i = 0; s1[i] != '\0'; i++)
-{
-coo[i] = s1[i];
-}
-for (j = 0; s2[j] != '\0'; j++, i++)
-{
-coo[i] = s2[j];
-}
-coo[i] = '\0';
+l = 0;
+for (i = 0; s1[i]; i++)
+coo[l++] = s1[i];
+for (i = 0; s2[i] && i < n; i++)
+coo[l++] = s2[i];
+coo[l] = '\0';
 return (coo);
 }
