@@ -24,7 +24,7 @@ for (i = 0; s1[i]; i++)
 {
 l++;
 }
-coo = malloc(sizeof(char) * l + 1);
+coo = malloc(sizeof(char) * (l + n + 1));
 if (coo == NULL)
 {
 return (NULL);
