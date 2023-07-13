@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stddef.h>
+#include <stdlib.h>
 /**
 * _calloc - allocate memory using malloc and initialize it to zero
 *@nmemb: number of elements
@@ -9,18 +10,22 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *block;
-	unsigned int i;
-
-	if (nmemb == 0 || size == 0)
-		return (NULL);
-	block = malloc(nmemb * size);
-	if (block != NULL)
-	{
-		for (i = 0; i < (nmemb * size); i++)
-			block[i] = 0;
-		return (block);
-	}
-	else
-		return (NULL);
+char *block;
+unsigned int i, l;
+if (nmemb == 0 || size == 0)
+{
+return (NULL);
+}
+l = nmemb * size;
+block = malloc(l);
+if (block != NULL)
+{
+for (i = 0; i < (nmemb * size); i++)
+{
+block[i] = 0;
+}
+return (block);
+}
+else
+return (NULL);
 }
