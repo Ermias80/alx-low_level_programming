@@ -15,7 +15,6 @@ unsigned int _strlen(char *str)
 
 
    for (i = 0; str[i]; i++)
-       ;
    return (i);
 }
 
@@ -56,4 +55,3 @@ list_t *add_node_end(list_t **head, const char *str)
    tmp->next = new;
    return (new);
 }
-
