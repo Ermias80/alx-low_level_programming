@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_listint - print all the elements 
+ * print_listint - print all the elements
  * @h: linked list of type list int 
  * Return: Number of nood
  */
