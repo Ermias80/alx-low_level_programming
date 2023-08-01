@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * struct listint_s - singly linked list
- * @n: integer
+ * print_listint - singly linked list
+ * @h: integer
  * @next: points to the next node
  *
  * Description: singly linked list node structure
