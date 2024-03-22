@@ -24,9 +24,11 @@ int f4(char *usrn, int len)
 			ch = usrn[vch];
 		vch += 1;
 	}
-	srand(ch ^ 42);
+
+	srand(ch ^ 14);
 	rand_num = rand();
-	return (rand_num & 127);
+
+	return (rand_num & 63);
 }
 
 /**
@@ -38,14 +40,18 @@ int f4(char *usrn, int len)
  */
 int f5(char *usrn, int len)
 {
-	int ch = 0;
+	int ch;
 	int vch;
 
-	for (vch = 0; vch < len; vch++)
+	ch = vch = 0;
+
+	while (vch < len)
 	{
-		ch += usrn[vch] * usrn[vch];
+		ch = ch + usrn[vch] * usrn[vch];
+		vch += 1;
 	}
-	return (((unsigned int)ch ^ 123) & 127);
+
+	return (((unsigned int)ch ^ 239) & 63);
 }
 
 /**
@@ -56,18 +62,19 @@ int f5(char *usrn, int len)
  */
 int f6(char *usrn)
 {
-	int ch = 0;
-	int vch = 0;
+	int ch;
+	int vch;
 
-	srand(time(NULL));
+	ch = vch = 0;
+
 	while (vch < *usrn)
 	{
-		ch = (ch << 5) - ch + rand();
-		vch++;
+		ch = rand();
+		vch += 1;
 	}
-	return (((unsigned int)ch ^ 167) & 127);
-}
 
+	return (((unsigned int)ch ^ 229) & 63);
+}
 
 /**
  * main - Entry point
@@ -89,7 +96,7 @@ int main(int argc, char **argv)
 	for (len = 0; argv[1][len]; len++)
 		;
 	/* ----------- f1 ----------- */
-	keygen[0] = ((char *)alph)[(len ^ 59) & 127];
+	keygen[0] = ((char *)alph)[(len ^ 59) & 63];
 	/* ----------- f2 ----------- */
 	ch = vch = 0;
 	while (vch < len)
@@ -97,7 +104,7 @@ int main(int argc, char **argv)
 		ch = ch + argv[1][vch];
 		vch = vch + 1;
 	}
-	keygen[1] = ((char *)alph)[(ch ^ 79) & 127];
+	keygen[1] = ((char *)alph)[(ch ^ 79) & 63];
 	/* ----------- f3 ----------- */
 	ch = 1;
 	vch = 0;
@@ -106,7 +113,7 @@ int main(int argc, char **argv)
 		ch = argv[1][vch] * ch;
 		vch = vch + 1;
 	}
-	keygen[2] = ((char *)alph)[(ch ^ 85) & 127];
+	keygen[2] = ((char *)alph)[(ch ^ 85) & 63];
 	/* ----------- f4 ----------- */
 	keygen[3] = ((char *)alph)[f4(argv[1], len)];
 	/* ----------- f5 ----------- */
