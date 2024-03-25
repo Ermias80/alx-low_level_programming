@@ -10,7 +10,6 @@ int sum(int a, int b)
 	return(a + b);
 }
 
-#include <stdio.h>
 /**
  * sub - subtrion of two numbers
  * @a: the value of A
@@ -22,7 +21,6 @@ int sub(int a, int b)
 	return(a - b);
 }
 
-#include <stdio.h>
 /**
  * mul - mul of two numbers
  * @a: the value of A
@@ -34,7 +32,6 @@ int mul(int a, int b)
         return(a * b);
 }
 
-#include <stdio.h>
 /**
  * div - dev of two numbers
  * @a: the value of A
@@ -46,7 +43,6 @@ int div(int a, int b)
         return(a / b);
 }
 
-#include <stdio.h>
 /**
  * moud - modulation of two numbers
  * @a: the value of A
