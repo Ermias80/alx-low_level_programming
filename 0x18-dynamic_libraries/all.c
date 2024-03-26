@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * add - addition of two numbers
  * @a: the value of A
