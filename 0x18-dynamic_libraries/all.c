@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * sum - addition of two numbers
+ * add - addition of two numbers
  * @a: the value of A
  * @b: the value of b
  * return: Addition
  */
-int sum(int a, int b)
+int add(int a, int b)
 {
 	return(a + b);
 }
